@@ -2,9 +2,8 @@ class Utils{
 
     async getDefaultChannel(guild){
         // get "original" default channel
-        if(guild.channel.has(guild.id))
-          return guild.channels.get(guild.id)
-      
+        // if(guild.channel.has(guild.id))
+        //   return guild.channels.get(guild.id)
         // Check for a "general" channel, which is often default chat
         if(guild.channels.exists("name", "general"))
           return guild.channels.find("name", "general");
