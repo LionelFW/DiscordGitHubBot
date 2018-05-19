@@ -1,0 +1,29 @@
+{
+  "name": "discordgithubbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/app.js",
+  "scripts": {
+    "rundev": "nodemon js/app.js",
+    "start": "node js/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LionelFW/DiscordGitHubBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LionelFW/DiscordGitHubBot/issues"
+  },
+  "homepage": "https://github.com/LionelFW/DiscordGitHubBot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "github-api": "^3.0.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
